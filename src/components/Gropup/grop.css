@@ -1,0 +1,18 @@
+.boxcontainer{
+    text-align: center !important;
+    font-family: tanha;
+
+}
+.boxone{
+    display: flex !important;
+    text-align: center;
+}
+.gropbox{
+    width: 50%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.href{
+    color: blue !important;
+}

@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh !important;
+    direction: rtl !important;
+  }
+  
+  .container {
+    width: min(90%, 1140px) !important;
+    margin: 1rem auto !important;
+    padding: 0px 0px !important;
+  }
+  
+  .comment__container {
+    display: none !important;
+    position: relative !important;
+  }
+  
+  .comment__container.opened {
+    display: block !important;
+  }
+  
+  .comment__container::before {
+    content: "" !important;
+    background-color: rgb(47, 44, 44) !important;
+    position: absolute !important;
+    min-height: 100% !important;
+    width: 5px !important;
+    right: -10px !important;
+  }
+  
+  .comment__container:not(:first-child) {
+    margin-right: 3rem !important;
+    margin-top: 1rem !important;
+  }
+  
+  .comment__card {
+    max-width: 450px !important;
+    padding: 20px !important;
+    text-align: right !important;
+    background-color: white !important;
+    border: 2px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0.5rem !important;
+    min-width: 100% !important;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .comment__card h3,
+  .comment__card p {
+    margin-bottom: 1rem !important;
+  }
+  
+  .comment__card-footer {
+    display: flex !important;
+    font-size: 0.85rem !important;
+    opacity: 0.6 !important;
+    gap: 30px !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    overflow-x: hidden !important;
+  }
+  .comment__card-footer div{
+      margin: 1rem !important;
+  }
+  .show-replies {
+    cursor: pointer !important;
+  }
+
+  input{
+    font-family: 'tanha' !important;
+    font-size: 15px !important;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .comment__card-footer div{
+      margin: 0px !important;
+  }
+  .comment__card {
+    max-width: 450px !important;
+    padding: 15px !important;
+    text-align: right !important;
+    background-color: white !important;
+    border: 2px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0.5rem !important;
+    min-width: 100% !important;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+          }

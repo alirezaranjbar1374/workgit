@@ -1,0 +1,33 @@
+.titletypesmal{
+    font-size: 1.75rem !important;
+    font-family: "tanha";
+    font-weight: bold !important;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+    color: #00beff !important ;
+
+}
+.destype{
+    font-family: "tanha";
+    font-weight: bold !important;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+    font-size: 1.75rem !important;
+
+}
+@media only screen and (max-width: 480px) {
+    .titletypesmal{
+        font-size: 1.75rem !important;
+        font-family: "tanha";
+        font-weight: bold !important;
+        line-height: 1.2;
+        letter-spacing: -0.00833em;
+    
+}
+.destype{
+    font-family: "tanha";
+    font-size: 1.75rem !important;
+
+    font-weight: bold !important;
+}
+          }

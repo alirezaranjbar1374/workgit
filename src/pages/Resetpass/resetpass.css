@@ -1,0 +1,46 @@
+.input-disable {
+    pointer-events: none;
+    border: 1px solid grey;
+    background-color: rgb(149, 144, 144);
+    display: none;
+    text-align: center;
+  }
+ 
+
+
+  
+.resetpass{
+    width: 60% !important;
+	height: 24px !important;
+    margin-top: 10px !important ;
+	margin: 20px auto !important;
+	justify-content: center !important;
+	display: block !important;
+	color: #fff !important;
+	background: #573b8a !important;
+	font-size: 1em !important;
+	font-weight: bold !important; 
+	/* margin-top: 20px; */
+	outline: none !important;
+	border: none !important;
+	border-radius: 5px !important;
+	transition: .2s ease-in !important;
+	cursor: pointer !important;
+	/* margin-bottom: 184px; */
+	position: relative !important;
+	bottom: 19px !important;
+}
+
+ .sub{
+    text-decoration: none;
+ }
+
+
+ @media only screen and (max-width: 480px) {
+    .sub{
+        font-size: medium;
+     }
+     .label1{
+        font-size: medium;
+     }
+ }
