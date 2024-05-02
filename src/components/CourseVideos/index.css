@@ -1,0 +1,61 @@
+.course_DEtil{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+li{
+    list-style-type: none;
+}
+.containerprice{
+    width: 300px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.containeraccoring{
+    margin: 0 90px !important;
+}
+.titlevideoacordin{
+    font-family: 'tanha' !important;
+  
+}
+.titleprice{
+    text-decoration: none !important;
+}
+.stusdes{
+    font-size: small !important;
+    text-decoration: none !important;
+}
+@media only screen and (max-width: 480px) {
+  
+.titleCourse{
+    font-size: medium !important;
+}
+.stusdes{
+    font-size: small !important;
+    text-decoration: none !important;
+}
+.timevideo{
+    font-size: small !important;
+    text-decoration: none !important;
+}
+
+.titleprice{
+    font-weight: bold !important;
+   font-size: 15px !important; 
+   text-decoration: none !important;
+}
+.containerprice{
+    width: 100% !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+.containeraccoring{
+    margin: 0 7px !important;
+}
+
+          }

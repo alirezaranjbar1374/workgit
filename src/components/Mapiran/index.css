@@ -1,0 +1,144 @@
+.path-city{
+   stroke: #fff;
+  }
+  .path-city:hover{
+    fill: rgb(220, 212, 212);
+    background-image: linear-gradient( 40deg, hsl(204deg 76% 82%) 0%, hsl(105deg 65% 91%) 37%, hsl(181deg 89% 71%) 100%, hsl(181deg 89% 71%) 100% );
+
+  }
+  .path-city-g1{
+    fill: #d90202;
+  }
+  .path-city-g2{
+    fill: #0290d9;
+    ;
+  }
+  .path-city-g3{
+    fill: #89cb2b;
+  }
+  
+ 
+
+
+  a[xlinkTitle="اردبیل"] {
+    /* استایل‌های مورد نظر خود را اینجا تعریف کنید */
+    color: blue; /* به عنوان مثال استفاده از رنگ آبی برای متن */
+    text-decoration: underline; /* به عنوان مثال ایجاد خط زیر متن */
+  }
+.containeriran{
+  
+    display: flex;
+    direction: rtl;
+    flex-direction: row-reverse;
+    
+}
+.containerloacation{
+    text-align: center;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+
+}
+.containerprakangi{
+    text-align: center;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.boxtext{
+    direction: rtl;
+
+}
+.boxcolor{
+  
+
+    text-align: center;
+    border-radius: 50%;
+    padding: 0px;
+    width: 10%;
+    background-color: #89cb2b;
+
+    height: 25%;
+    display: inline-block;
+
+}
+.boxcolor2{
+    text-align: center;
+    border-radius: 50%;
+    padding: 0px;
+    width: 10%;
+
+    height: 25%;
+    display: inline-block;
+    background-color: #d90202;
+
+}
+.boxcolor3{
+    text-align: center;
+    border-radius: 50%;
+    padding: 0px;
+    width: 10%;
+
+    height: 25%;
+    display: inline-block;
+    background: #0290d9;
+
+}
+
+.itemgrid{
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: small;
+    border-radius: 5px;
+    margin-left: 3px !important;
+}
+
+
+.Gridprakandegi{
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    .containerloacation{
+        text-align: center;
+        display: flex;
+        direction: rtl;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+    
+    
+    }
+    .itemgrid{
+        border: 1px solid black;
+        padding: 2px;
+        font-weight: bolder;
+        font-size: x-small;
+        border-radius: 3px;
+        margin-left: 1px !important;
+    }
+    .boxtext{
+        direction: rtl;
+        font-size: small;
+    
+    }
+  
+.boxasaliparkangi{
+    margin-right: 90px !important;
+
+ 
+
+}
+
+
+
+          }

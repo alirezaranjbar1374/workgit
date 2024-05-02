@@ -1,0 +1,20 @@
+.imgcard{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+
+}
+
+.containermedi{
+
+    border-radius:10px;
+
+}
+.card_articel10{
+    background-color:#00beff;
+}
+.card_articel10:hover{
+    background-color:#22e1e1;
+    color: #ffff !important;
+}

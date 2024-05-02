@@ -1,0 +1,15 @@
+.lotifibig{
+    display: block !important;
+        }
+
+.lotifismall{
+display: none !important;
+        }
+@media only screen and (max-width: 480px) {
+.lotifibig{
+display: none !important;
+}
+.lotifismall{
+    display: block !important;
+}
+  }
